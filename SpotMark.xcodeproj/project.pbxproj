@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2833AEF81B4CB1CC00FF10C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AEF71B4CB1CC00FF10C4 /* AppDelegate.swift */; };
+		2833AEFA1B4CB1CC00FF10C4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AEF91B4CB1CC00FF10C4 /* FirstViewController.swift */; };
+		2833AEFC1B4CB1CC00FF10C4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AEFB1B4CB1CC00FF10C4 /* SecondViewController.swift */; };
+		2833AEFF1B4CB1CC00FF10C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2833AEFD1B4CB1CC00FF10C4 /* Main.storyboard */; };
+		2833AF011B4CB1CC00FF10C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2833AF001B4CB1CC00FF10C4 /* Images.xcassets */; };
+		2833AF041B4CB1CC00FF10C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2833AF021B4CB1CC00FF10C4 /* LaunchScreen.xib */; };
+		2833AF101B4CB1CC00FF10C4 /* SpotMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AF0F1B4CB1CC00FF10C4 /* SpotMarkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2833AF0A1B4CB1CC00FF10C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2833AEEA1B4CB1CB00FF10C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2833AEF11B4CB1CC00FF10C4;
+			remoteInfo = SpotMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2833AEF21B4CB1CC00FF10C4 /* SpotMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2833AEF61B4CB1CC00FF10C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2833AEF71B4CB1CC00FF10C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2833AEF91B4CB1CC00FF10C4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2833AEFB1B4CB1CC00FF10C4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2833AEFE1B4CB1CC00FF10C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2833AF001B4CB1CC00FF10C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2833AF031B4CB1CC00FF10C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2833AF091B4CB1CC00FF10C4 /* SpotMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2833AF0E1B4CB1CC00FF10C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2833AF0F1B4CB1CC00FF10C4 /* SpotMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotMarkTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2833AEEF1B4CB1CC00FF10C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2833AF061B4CB1CC00FF10C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2833AEE91B4CB1CB00FF10C4 = {
+			isa = PBXGroup;
+			children = (
+				2833AEF41B4CB1CC00FF10C4 /* SpotMark */,
+				2833AF0C1B4CB1CC00FF10C4 /* SpotMarkTests */,
+				2833AEF31B4CB1CC00FF10C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2833AEF31B4CB1CC00FF10C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2833AEF21B4CB1CC00FF10C4 /* SpotMark.app */,
+				2833AF091B4CB1CC00FF10C4 /* SpotMarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2833AEF41B4CB1CC00FF10C4 /* SpotMark */ = {
+			isa = PBXGroup;
+			children = (
+				2833AEF71B4CB1CC00FF10C4 /* AppDelegate.swift */,
+				2833AEF91B4CB1CC00FF10C4 /* FirstViewController.swift */,
+				2833AEFB1B4CB1CC00FF10C4 /* SecondViewController.swift */,
+				2833AEFD1B4CB1CC00FF10C4 /* Main.storyboard */,
+				2833AF001B4CB1CC00FF10C4 /* Images.xcassets */,
+				2833AF021B4CB1CC00FF10C4 /* LaunchScreen.xib */,
+				2833AEF51B4CB1CC00FF10C4 /* Supporting Files */,
+			);
+			path = SpotMark;
+			sourceTree = "<group>";
+		};
+		2833AEF51B4CB1CC00FF10C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2833AEF61B4CB1CC00FF10C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2833AF0C1B4CB1CC00FF10C4 /* SpotMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				2833AF0F1B4CB1CC00FF10C4 /* SpotMarkTests.swift */,
+				2833AF0D1B4CB1CC00FF10C4 /* Supporting Files */,
+			);
+			path = SpotMarkTests;
+			sourceTree = "<group>";
+		};
+		2833AF0D1B4CB1CC00FF10C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2833AF0E1B4CB1CC00FF10C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2833AEF11B4CB1CC00FF10C4 /* SpotMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2833AF131B4CB1CC00FF10C4 /* Build configuration list for PBXNativeTarget "SpotMark" */;
+			buildPhases = (
+				2833AEEE1B4CB1CC00FF10C4 /* Sources */,
+				2833AEEF1B4CB1CC00FF10C4 /* Frameworks */,
+				2833AEF01B4CB1CC00FF10C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotMark;
+			productName = SpotMark;
+			productReference = 2833AEF21B4CB1CC00FF10C4 /* SpotMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2833AF081B4CB1CC00FF10C4 /* SpotMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2833AF161B4CB1CC00FF10C4 /* Build configuration list for PBXNativeTarget "SpotMarkTests" */;
+			buildPhases = (
+				2833AF051B4CB1CC00FF10C4 /* Sources */,
+				2833AF061B4CB1CC00FF10C4 /* Frameworks */,
+				2833AF071B4CB1CC00FF10C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2833AF0B1B4CB1CC00FF10C4 /* PBXTargetDependency */,
+			);
+			name = SpotMarkTests;
+			productName = SpotMarkTests;
+			productReference = 2833AF091B4CB1CC00FF10C4 /* SpotMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2833AEEA1B4CB1CB00FF10C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Travis Flatt";
+				TargetAttributes = {
+					2833AEF11B4CB1CC00FF10C4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2833AF081B4CB1CC00FF10C4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2833AEF11B4CB1CC00FF10C4;
+					};
+				};
+			};
+			buildConfigurationList = 2833AEED1B4CB1CB00FF10C4 /* Build configuration list for PBXProject "SpotMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2833AEE91B4CB1CB00FF10C4;
+			productRefGroup = 2833AEF31B4CB1CC00FF10C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2833AEF11B4CB1CC00FF10C4 /* SpotMark */,
+				2833AF081B4CB1CC00FF10C4 /* SpotMarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2833AEF01B4CB1CC00FF10C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2833AEFF1B4CB1CC00FF10C4 /* Main.storyboard in Resources */,
+				2833AF041B4CB1CC00FF10C4 /* LaunchScreen.xib in Resources */,
+				2833AF011B4CB1CC00FF10C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2833AF071B4CB1CC00FF10C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2833AEEE1B4CB1CC00FF10C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2833AEFC1B4CB1CC00FF10C4 /* SecondViewController.swift in Sources */,
+				2833AEF81B4CB1CC00FF10C4 /* AppDelegate.swift in Sources */,
+				2833AEFA1B4CB1CC00FF10C4 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2833AF051B4CB1CC00FF10C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2833AF101B4CB1CC00FF10C4 /* SpotMarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2833AF0B1B4CB1CC00FF10C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2833AEF11B4CB1CC00FF10C4 /* SpotMark */;
+			targetProxy = 2833AF0A1B4CB1CC00FF10C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2833AEFD1B4CB1CC00FF10C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2833AEFE1B4CB1CC00FF10C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2833AF021B4CB1CC00FF10C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2833AF031B4CB1CC00FF10C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2833AF111B4CB1CC00FF10C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2833AF121B4CB1CC00FF10C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2833AF141B4CB1CC00FF10C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpotMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2833AF151B4CB1CC00FF10C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpotMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2833AF171B4CB1CC00FF10C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpotMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotMark.app/SpotMark";
+			};
+			name = Debug;
+		};
+		2833AF181B4CB1CC00FF10C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SpotMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotMark.app/SpotMark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2833AEED1B4CB1CB00FF10C4 /* Build configuration list for PBXProject "SpotMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2833AF111B4CB1CC00FF10C4 /* Debug */,
+				2833AF121B4CB1CC00FF10C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2833AF131B4CB1CC00FF10C4 /* Build configuration list for PBXNativeTarget "SpotMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2833AF141B4CB1CC00FF10C4 /* Debug */,
+				2833AF151B4CB1CC00FF10C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2833AF161B4CB1CC00FF10C4 /* Build configuration list for PBXNativeTarget "SpotMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2833AF171B4CB1CC00FF10C4 /* Debug */,
+				2833AF181B4CB1CC00FF10C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2833AEEA1B4CB1CB00FF10C4 /* Project object */;
+}
