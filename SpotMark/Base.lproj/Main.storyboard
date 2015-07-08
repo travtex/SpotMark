@@ -81,6 +81,7 @@
                         <outlet property="latitudeLabel" destination="sxh-J9-hel" id="XL3-aT-xbB"/>
                         <outlet property="longitudeLabel" destination="8KS-uV-ekv" id="jcu-fL-yjA"/>
                         <outlet property="messageLabel" destination="S5r-iq-DVw" id="H21-y5-71t"/>
+                        <outlet property="tagButton" destination="tOA-bW-FZc" id="nDt-aF-gxI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
