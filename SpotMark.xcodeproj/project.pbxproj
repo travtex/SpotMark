@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2833AEF81B4CB1CC00FF10C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AEF71B4CB1CC00FF10C4 /* AppDelegate.swift */; };
-		2833AEFA1B4CB1CC00FF10C4 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AEF91B4CB1CC00FF10C4 /* FirstViewController.swift */; };
+		2833AEFA1B4CB1CC00FF10C4 /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AEF91B4CB1CC00FF10C4 /* CurrentLocationViewController.swift */; };
 		2833AEFC1B4CB1CC00FF10C4 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AEFB1B4CB1CC00FF10C4 /* SecondViewController.swift */; };
 		2833AEFF1B4CB1CC00FF10C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2833AEFD1B4CB1CC00FF10C4 /* Main.storyboard */; };
 		2833AF011B4CB1CC00FF10C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2833AF001B4CB1CC00FF10C4 /* Images.xcassets */; };
@@ -30,7 +30,7 @@
 		2833AEF21B4CB1CC00FF10C4 /* SpotMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2833AEF61B4CB1CC00FF10C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2833AEF71B4CB1CC00FF10C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2833AEF91B4CB1CC00FF10C4 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2833AEF91B4CB1CC00FF10C4 /* CurrentLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentLocationViewController.swift; sourceTree = "<group>"; };
 		2833AEFB1B4CB1CC00FF10C4 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2833AEFE1B4CB1CC00FF10C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2833AF001B4CB1CC00FF10C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2833AEF71B4CB1CC00FF10C4 /* AppDelegate.swift */,
-				2833AEF91B4CB1CC00FF10C4 /* FirstViewController.swift */,
+				2833AEF91B4CB1CC00FF10C4 /* CurrentLocationViewController.swift */,
 				2833AEFB1B4CB1CC00FF10C4 /* SecondViewController.swift */,
 				2833AEFD1B4CB1CC00FF10C4 /* Main.storyboard */,
 				2833AF001B4CB1CC00FF10C4 /* Images.xcassets */,
@@ -217,7 +217,7 @@
 			files = (
 				2833AEFC1B4CB1CC00FF10C4 /* SecondViewController.swift in Sources */,
 				2833AEF81B4CB1CC00FF10C4 /* AppDelegate.swift in Sources */,
-				2833AEFA1B4CB1CC00FF10C4 /* FirstViewController.swift in Sources */,
+				2833AEFA1B4CB1CC00FF10C4 /* CurrentLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +413,7 @@
 				2833AF151B4CB1CC00FF10C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2833AF161B4CB1CC00FF10C4 /* Build configuration list for PBXNativeTarget "SpotMarkTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +422,7 @@
 				2833AF181B4CB1CC00FF10C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
