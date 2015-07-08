@@ -60,6 +60,9 @@
                                 <state key="normal" title="Get My Location">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="getLocation" destination="9pv-A4-QxB" eventType="touchUpInside" id="U5D-vM-i2T"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(Address goes Here)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xp8-9c-fqR">
                                 <rect key="frame" x="16" y="232" width="288" height="50"/>
@@ -74,6 +77,7 @@
                     <tabBarItem key="tabBarItem" title="Tag" image="first" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="addressLabel" destination="Xp8-9c-fqR" id="8CP-sz-Skn"/>
+                        <outlet property="getButton" destination="qqb-ep-lbc" id="sk0-Ty-37K"/>
                         <outlet property="latitudeLabel" destination="sxh-J9-hel" id="XL3-aT-xbB"/>
                         <outlet property="longitudeLabel" destination="8KS-uV-ekv" id="jcu-fL-yjA"/>
                         <outlet property="messageLabel" destination="S5r-iq-DVw" id="H21-y5-71t"/>
