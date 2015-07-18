@@ -26,6 +26,7 @@ class LocationDetailsViewController: UITableViewController, UITextViewDelegate {
     @IBOutlet weak var dateLabel: UILabel!
     
     @IBAction func done() {
+        println("Description '\(descriptionText)'")
         dismissViewControllerAnimated(true, completion: nil)
     }
     
@@ -33,15 +34,22 @@ class LocationDetailsViewController: UITableViewController, UITextViewDelegate {
         dismissViewControllerAnimated(true, completion: nil)
     }
     
+    @IBAction func categoryPickerDidPickCategory(segue: UIStoryboardSegue) {
+        let controller = segue.sourceViewController as! CategoryPickerViewController
+        categoryName = controller.selectedCategoryName
+        categoryLabel.text = categoryName
+    }
+    
     var coordinate = CLLocationCoordinate2D(latitude: 0, longitude: 0)
     var placemark: CLPlacemark?
     var descriptionText = ""
+    var categoryName = "No Category"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         descriptionTextView.text = descriptionText
-        categoryLabel.text = ""
+        categoryLabel.text = categoryName
         
         latitudeLabel.text = String(format: "%.8f", coordinate.latitude)
         longitudeLabel.text = String(format: "%.8f", coordinate.longitude)
@@ -81,4 +89,21 @@ class LocationDetailsViewController: UITableViewController, UITextViewDelegate {
         }
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "PickCategory" {
+            let controller = segue.destinationViewController as! CategoryPickerViewController
+            controller.selectedCategoryName = categoryName
+        }
+    }
+}
+
+extension LocationDetailsViewController: UITextViewDelegate {
+    func textView(textView: UITextView, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
+        descriptionText = (textView.text as NSString).stringByReplacingCharactersInRange(range, withString: text)
+        return true
+    }
+    
+    func textViewDidEndEditing(textView: UITextView) {
+        descriptionText = textView.text
+    }
 }

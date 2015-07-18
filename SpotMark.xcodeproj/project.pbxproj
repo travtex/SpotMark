@@ -14,6 +14,7 @@
 		2833AF011B4CB1CC00FF10C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2833AF001B4CB1CC00FF10C4 /* Images.xcassets */; };
 		2833AF041B4CB1CC00FF10C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2833AF021B4CB1CC00FF10C4 /* LaunchScreen.xib */; };
 		2833AF101B4CB1CC00FF10C4 /* SpotMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2833AF0F1B4CB1CC00FF10C4 /* SpotMarkTests.swift */; };
+		8868A49D1B5A128700D1A034 /* CategoryPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8868A49C1B5A128700D1A034 /* CategoryPickerViewController.swift */; };
 		887E06B31B4E17B500ABD22C /* LocationDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887E06B21B4E17B500ABD22C /* LocationDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		2833AF091B4CB1CC00FF10C4 /* SpotMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2833AF0E1B4CB1CC00FF10C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2833AF0F1B4CB1CC00FF10C4 /* SpotMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotMarkTests.swift; sourceTree = "<group>"; };
+		8868A49C1B5A128700D1A034 /* CategoryPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPickerViewController.swift; sourceTree = "<group>"; };
 		887E06B21B4E17B500ABD22C /* LocationDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				2833AEF71B4CB1CC00FF10C4 /* AppDelegate.swift */,
 				2833AEF91B4CB1CC00FF10C4 /* CurrentLocationViewController.swift */,
 				887E06B21B4E17B500ABD22C /* LocationDetailsViewController.swift */,
+				8868A49C1B5A128700D1A034 /* CategoryPickerViewController.swift */,
 				2833AEFB1B4CB1CC00FF10C4 /* SecondViewController.swift */,
 				2833AEFD1B4CB1CC00FF10C4 /* Main.storyboard */,
 				2833AF001B4CB1CC00FF10C4 /* Images.xcassets */,
@@ -221,6 +224,7 @@
 				887E06B31B4E17B500ABD22C /* LocationDetailsViewController.swift in Sources */,
 				2833AEFC1B4CB1CC00FF10C4 /* SecondViewController.swift in Sources */,
 				2833AEF81B4CB1CC00FF10C4 /* AppDelegate.swift in Sources */,
+				8868A49D1B5A128700D1A034 /* CategoryPickerViewController.swift in Sources */,
 				2833AEFA1B4CB1CC00FF10C4 /* CurrentLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

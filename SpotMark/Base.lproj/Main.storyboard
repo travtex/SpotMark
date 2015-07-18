@@ -115,6 +115,9 @@
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="amj-hw-Ogj" id="OBG-9d-iM6"/>
+                                                    </connections>
                                                 </textView>
                                             </subviews>
                                         </tableViewCellContentView>
@@ -140,6 +143,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="eZP-DZ-xZn" kind="push" identifier="PickCategory" id="wLu-zF-kpr"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -288,6 +294,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZX4-le-zYj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1304" y="-303"/>
+        </scene>
+        <!--Category Picker View Controller-->
+        <scene sceneID="vJx-oE-Kl8">
+            <objects>
+                <tableViewController id="eZP-DZ-xZn" customClass="CategoryPickerViewController" customModule="SpotMark" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fgp-Dv-wGd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="zxj-qs-0Kn" style="IBUITableViewCellStyleDefault" id="FVW-nj-tib">
+                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FVW-nj-tib" id="xZE-jj-pO8">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zxj-qs-0Kn">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="pLI-7q-R7e" kind="unwind" identifier="PickedCategory" unwindAction="categoryPickerDidPickCategory:" id="37e-Ll-j1c"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eZP-DZ-xZn" id="K4A-ja-mjo"/>
+                            <outlet property="delegate" destination="eZP-DZ-xZn" id="nSA-jz-iAj"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="IYC-QA-nDh"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ad2-bw-Ax9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="pLI-7q-R7e" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1732" y="-301"/>
         </scene>
         <!--Second-->
         <scene sceneID="wg7-f3-ORb">
